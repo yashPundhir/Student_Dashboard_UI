@@ -1,0 +1,55 @@
+* {
+	background-color: #1f1f1f;
+}
+@media (551px <= width <= 901px) {
+	.phone-col {
+		display: none;
+	}
+	.email-col {
+		width: 60%;
+	}
+	.name-col {
+		width: 40%;
+	}
+}
+
+@media (501px <= width <= 551px) {
+	.hd {
+		font-size: 30px;
+	}
+	.phone-col {
+		display: none;
+	}
+	.email-col {
+		width: 60%;
+		font-size: 15px;
+	}
+	.name-col {
+		width: 40%;
+		font-size: 15px;
+	}
+	.tbl {
+		height: 395px;
+	}
+}
+
+@media (width <= 501px) {
+	.hd {
+		font-size: 28px;
+	}
+
+	.phone-col {
+		display: none;
+	}
+	.email-col {
+		width: 60%;
+		font-size: 13px;
+	}
+	.name-col {
+		width: 40%;
+		font-size: 13px;
+	}
+	.tbl {
+		height: 365px;
+	}
+}
